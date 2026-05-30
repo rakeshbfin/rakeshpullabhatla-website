@@ -169,18 +169,18 @@ ul { list-style: none; }
 
 /* ── Page Header ────────────────────────────────────────────────── */
 .page-header {
-  padding: 120px 0 64px;
+  padding: 100px 0 32px;
   background: linear-gradient(135deg, var(--navy) 0%, var(--navy-800) 100%);
   color: #fff;
 }
 .page-header .tag { background: rgba(196,146,42,.15); color: var(--gold-light); border-color: rgba(196,146,42,.3); }
 .page-header h1 {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(2rem, 4vw, 3rem);
-  margin-top: 16px;
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  margin-top: 10px;
   line-height: 1.2;
 }
-.page-header p { color: rgba(255,255,255,.7); margin-top: 14px; max-width: 560px; }
+.page-header p { color: rgba(255,255,255,.7); margin-top: 10px; max-width: 560px; }
 
 /* ── Home Hero ──────────────────────────────────────────────────── */
 .hero {
@@ -714,7 +714,7 @@ ul { list-style: none; }
 
 @media (max-width: 768px) {
   .section    { padding: 64px 0; }
-  .page-header { padding: 100px 0 48px; }
+  .page-header { padding: 84px 0 24px; }
   .expertise-grid  { grid-template-columns: 1fr 1fr; }
   .expertise-item:nth-child(2) { border-right: none; }
   .solutions-grid  { grid-template-columns: 1fr; }
